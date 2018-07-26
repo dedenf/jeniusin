@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<a href='{{ site.baseurl }}/'>&larr; Posts</a>
+
+<article class='justify'>
+  <div class='mb2'>
+    <h2 class='h3 mb0'>{{ page.title }}</h2>
+    <time class='grayish'>Published at {{ page.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %}</time>
+  </div>
+  {{ content }}
+
+  {% include medium-crosspost.html url=page.medium_url%}
+
+  <div class="article_details h-small">
+    <div class="article_details_left">
+      <div class="detail">
+        <span class="field-name">Author: </span>
+        <span class="authors-container">
+          <a href="https://twitter.com/{{site.author.handle}}">
+          {{site.author.name}}							</a>												</span>
+      </div>
+      </div>
+        <div class="article_details_right">
+          <div class="detail">
+            <span class="field-name">Published: {{ page.date | date: '%B %-d, %Y' }}</span> 	
+          </div>
+          <div class="detail">
+            <span class="field-name">Length: {% include read-time.html %} </span> 
+          </div>
+    </div>
+  </div>
+
+</article>
+
+{% include post_pagination.html %}
