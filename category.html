@@ -1,5 +1,6 @@
 ---
 layout:   default
+permalink: /category/
 title:    Category
 ---
 {% comment%}
@@ -29,6 +30,12 @@ Here we generate all the categories.
 {% endif %}
 {% endfor %}
 
+
+{% for post in site.categories[page.category] %}
+    <a href="{{ post.url | absolute_url }}">
+      {{ post.title }}
+    </a>
+{% endfor %}
 <section class="section">
     <div class="container">
       <h2 class="has-text-centered title has-text-weight-semibold">{{ page.title }}</h2>
