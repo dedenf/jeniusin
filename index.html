@@ -4,101 +4,36 @@ title: Home
 with_header: true
 ---
 
-{% for post in paginator.posts %}
-{% if post.sticky == true %}
-  <article class=''>
-    {% if post.link %}
-      <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>link to the post</a></time>
-      <h2 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
-    {% else %}
-      <div class='mb2'>
-        <h2 class='m0'><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></h2>
-        <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %} &mdash; Sticky Post</time>
-      </div>
-    {% endif %}
+<section class="section movies">
+<div class="container">
+<h2 class="has-text-centered title has-text-weight-semibold">Jenius untuk semua kebutuhan anda</h2>
+</div>
+<div class="container main-teaser-content">
+<div class="columns">
+<div class="column" >
+    <p class="image is-4by3">
+        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+    </p>
+</div>
+<div class="column">
+    <h4 class="title is-4">Movies</h4>
+    <p>Ingin mengetahui penggunaan Jenius untuk kebutuhan hiburan film online?</p>
+    <a class="button is-primary" href="movie.html">Learn More</a>
 
-    {% if post.summary %}
-      {% if post.image.teaser %}
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/images/{{ post.image.teaser }}"></a>
-      {% endif %}
-      {{ post.summary | markdownify }}
-      <a href='{{ site.baseurl }}{{ post.url }}/'>Continue reading &rarr;</a>
-    {% else %}
-      {% if post.layout != post %}
-        {% assign words = post.content | strip_html | number_of_words %}
-        {% if post.page_type != "long" %}
-        
-          {% if words > 110 %}
-            {{ post.excerpt }} <a href="{{ site.github.url }}{{ post.url }}">Read more &rarr;</a>
-          {% else %}
-            {{ post.content }}
-          {% endif %}
-
-        {% else %}
-          {{ post.content }}
-        {% endif %}
-
-      {% endif %}
-    {% endif %}
-    </article>
-    <hr class='half-width'/>
-  {% endif %}
-  
-{% endfor %}
-
-
-{% for post in paginator.posts %}
-  <article class=''>
-    {% if post.link %}
-      <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; <a href='{{ post.url }}'>link to the post</a></time>
-      <h2 class='h3 mb0'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
-    {% else %}
-      <div class='mb2'>
-        <h2 class='m0'><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></h2>
-        <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }} &mdash; {% include read-time.html %}</time>
-      </div>
-    {% endif %}
-
-    {% if post.summary %}
-      {% if post.image.teaser %}
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/images/{{ post.image.teaser }}"></a>
-      {% endif %}
-      {{ post.summary | markdownify }}
-      <a href='{{ site.baseurl }}{{ post.url }}/'>Continue reading &rarr;</a>
-    {% else %}
-      {% if post.layout != post %}
-        {% assign words = post.content | strip_html | number_of_words %}
-
-        {% if post.page_type != "long" %}
-        
-          {% if words > 110 %}
-            {{ post.excerpt }} 
-            <a href="{{ site.github.url }}{{ post.url }}">Read more &rarr;</a><br><br>
-          {% else %}
-            {{ post.content }}
-          {% endif %}
-
-        {% else %}
-          {{ post.content }}
-        {% endif %}
-
-      {% endif %}
-    {% endif %}
-
-    {% if post %}
-      {% assign tags = post.tags  %}
-    {% else %}
-      {% assign tags = page.tags %}
-    {% endif %}
-    Tag{% if post.tags.size > 1 %}s{% endif %}:
-    {% for tag in tags %}
-      <a href="/tags#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
-    {% endfor %}
+</div>
+</div>
+</div>
+</section>
 
 
 
-  </article>
-  <hr class='half-width'/>
-{% endfor %}
-
-{% include pagination.html %}
+<section class="section">
+<div class="container">
+<div class="columns">
+  <div class="column">
+      <h3>lalal</h3>
+  </div>
+  <div class="column is-three-quarters"><p>We help navigate the complex challenge of creating an innovative product. We move fluidly from high-level business problems to tactile execution. If you’re looking for strategy, design, development, building a product, research, product management, discussing ideas, talking to a friend or just having a cup of coffee you should say “hi!” to us.</p></div>
+</div>
+</div>
+</section>
