@@ -6,20 +6,20 @@ highlighter:         rouge
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 # permalink:           pretty
-permalink: /:year/:month/:title
+permalink: /:title
 # relative_permalinks: true
 
 # Setup
-title:            "HyperText Thrones"
-tagline:          "on the HyperText"
-description:      'HyperText Thrones'
-url:              https://notes.dedenf.com
+title:            "Cashless with Jenius"
+tagline:          "Jeniusin aja!"
+description:      'Jenius untuk semua kebutuhan cashless anda'
+url:              https://jenius.in
 baseurl: 		      ''
 author:
-  name:           'Deden Fathurahman'
-  url:            https://notes.dedenf.com/
-  handle:         "dedenf"
-  email:          dedenf@gmail.com
+  name:           'Jenius'
+  url:            https://jenius.in/
+  handle:         "jeniusconnect"
+  email:          deden@jenius.com
 
 paginate:         5
 
@@ -27,7 +27,7 @@ paginate:         5
 version:          1.0.0
 
 github:
-  repo:           https://github.com/dedenf/dedenf.github.io
+  repo:           https://github.com/dedenf/jeniusin
 
 plugins: 
   - jemoji
