@@ -2,25 +2,26 @@
 layout: default
 ---
 
+<div class="container  is-full-mobile">
+  <div class="content">
+    <section class="section">
+        <article class="howto">
+          <div class="container">
+            <h2 class="has-text-centered title has-text-weight-semibold">{{ page.title }}</h2>
+          </div>
+          
+          <div class="container">
+              <ol>
+              {% for post in site.categories[page.category] %}
+              <li><a href="{{ post.url | absolute_url }}">
+                {{ post.title }}
+              </a></li>
+              {% endfor %}
+            </ol>
 
-<section class="section">
-    <article class="howto">
-      <div class="container">
-        <h2 class="has-text-centered title has-text-weight-semibold">{{ page.title }}</h2>
-      </div>
-      
-      <div class="container main-teaser-content">
-          <ol>
-          {% for post in site.categories[page.category] %}
-          <li><a href="{{ post.url | absolute_url }}">
-            {{ post.title }}
-          </a></li>
-          {% endfor %}
-        </ol>
+          </div>
 
-      </div>
-
-      <div class="container"></div>
-    </article>
-  </section>
-
+        </article>
+      </section>
+  </div>
+</div>

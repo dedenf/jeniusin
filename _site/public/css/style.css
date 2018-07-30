@@ -6,11 +6,19 @@ h2.work-title {
     .main-teaser-content {
         /* width: 500px;  */
     }
+    .main-layout { 
+        width: 70%; 
+        margin:0 auto;
+        border:1px solid red;
+    }
 }
 
 .main-teaser-content {
     margin-top:5em;
     margin-bottom:2em;
     justify-content: center;
-    width: 1000px;
+}
+
+.product-teaser-large {
+    margin:2em 0;
 }
