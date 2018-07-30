@@ -2,26 +2,46 @@
 layout: default
 ---
 
+{% if page.category == "movie" %}
+<!-- djsaldjas -->
+{% elsif page.category == "music" %}
+<!-- music -->
+{% elsif page.category == 'ecommerce' %}
+<!-- ecom, -->
+{% elsif page.category == "travel" %}
+
+<!-- <div class="has-text-centered">travel</div> -->
+
+{% endif %}
 <div class="container">
-  <div class="content">
-    <section class="section">
-        <article class="howto">
-          <div class="container">
-            <h2 class="has-text-centered title has-text-weight-semibold">{{ page.title }}</h2>
-          </div>
-          
-          <div class="container">
-              <ol>
-              {% for post in site.categories[page.category] %}
-              <li><a href="{{ post.url | absolute_url }}">
-                {{ post.title }}
-              </a></li>
-              {% endfor %}
-            </ol>
+    <!-- START ARTICLE FEED -->
+    <section class="articles">
+        <div class="column is-mobile is-10 is-offset-1">
+            <!-- START ARTICLE -->
+            <div class=" article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <h2 class="has-text-centered title">{{ page.title }}</h2>
+                        </div>
+                    </div>
+                    <div class="content article-body">
+                        <article class="howto">
+                            <ol>
+                            {% for post in site.categories[page.category] %}
+                            <li><a href="{{ post.url | absolute_url }}">
+                              {{ post.title }}
+                            </a></li>
+                            {% endfor %}
+                          </ol>
+                      </article>
 
-          </div>
-
-        </article>
-      </section>
-  </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END ARTICLE -->
+            
+            
+    </section>
+    <!-- END ARTICLE FEED -->
 </div>

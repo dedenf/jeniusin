@@ -37,6 +37,8 @@
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
   <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
@@ -70,14 +72,22 @@
 
 </script>
 <!-- RSS -->
+
+  <style type="text/css">
+    html,
+    body {
+        font-family: 'Open Sans';
+        }
+    img {
+        padding: 5px;
+        }
+</style>
+
+
 </head>
 
 
-  <body class="layout-default">
-
-    
-      
-
+  <body>
     <nav id="navbar" class="navbar has-shadow is-spaced">
   <div class="container">
     <div class="navbar-brand">
@@ -119,8 +129,14 @@
             <span class="icon has-text-danger">
                     <i class="fas fa-map-marked"></i>
             </span>
-  
             <span>Travel</span>
+          </a>
+
+          <a class="navbar-item bd-navbar-item-love " href="/category/payments">
+            <span class="icon has-text-danger">
+                    <i class="fas fa-money-bill-alt"></i>
+            </span>
+            <span>Payments</span>
           </a>
           
           <a class="navbar-item bd-navbar-item-love " href="/category/">
@@ -152,46 +168,97 @@
     </div>
     </div>
 </nav>
-    
-    <div class="container main-layout">
-      <section class="section movies">
-    
-    <div class="container">
-        <h2 class="has-text-centered title has-text-weight-semibold">Jenius untuk semua kebutuhan anda</h2>
-    </div>
-
-    <div class="container product-teaser-large" >
-        <div class="columns is-fluid">
-            <div class="column">
-                <p class="image">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
-                </p>
+        <div class="container">
+        
+        <!-- START ARTICLE FEED -->
+        <section class="articles">
+            <div class="column is-mobile is-10 is-offset-1">
+            <div class="container"></div>
+                    
+            <div class="columns">
+                <div class="column is-half is-mobile is-offset-3">
+                    <h2 class="title is-size-2 is-4 has-text-centered">
+                        Apapun kebutuhan finansialmu, Jeniusin aja! <br> Go Cashless!
+                    </h2>
+                </div>
             </div>
-            <div class="column">
-                <h4 class="title is-4">Movies</h4>
-                <p>Ingin mengetahui penggunaan Jenius untuk kebutuhan hiburan film online?</p>
-                <a class="button is-primary" href="movie.html">Learn More</a>
+                
+
+            <!-- start movie -->
+            <section class="hero is-default is-bold">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <div class="columns is-vcentered">
+                            <div class="column is-5">
+                                <figure class="image is-4by3">
+                                    <img src="https://picsum.photos/800/600/?image=1060" alt="Description">
+                                </figure>
+                            </div>
+                            <div class="column is-4">
+                                <h1 class="title is-4">
+                                    Movie
+                                </h1>
+                                <h2 class="subtitle is-5">
+                                    Jeniusin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?
+                                </h2>
+                                <br>
+                                <p class="has-text-centered">
+                                    <a class="button is-medium is-info is-outlined" href="/category/movie">
+                                        Learn more
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end movie -->
+
+            <hr>
+            <div class="columns">
+                <div class="column is-half is-mobile is-offset-3">
+                    <h2 class="title is-size-4 has-text-centered">
+                        Jenius memudahkanku dalam menabung dan kebutuhan finansialku
+                    </h2>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- start music -->
+            <section class="hero is-default is-bold">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <div class="columns is-vcentered">
+                                
+                                <div class="column is-4">
+                                    <h1 class="title is-4">
+                                        Music
+                                    </h1>
+                                    <h2 class="subtitle is-5">
+                                        Jeniusin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?
+                                    </h2>
+                                    <br>
+                                    <p class="has-text-centered">
+                                        <a class="button is-medium is-info is-outlined" href="/category/music">
+                                            Learn more
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="column is-5">
+                                        <figure class="image is-4by3">
+                                            <img src="https://picsum.photos/800/600/?image=1082" alt="Description">
+                                        </figure>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end music -->
+
 
             </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="section" >
-    <div class="container is-fluid" >
-        <div class="columns" >
-            <div class="column" >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime, accusamus perspiciatis inventore sed dolore perferendis quod magnam, architecto unde veniam iusto officia dolor, culpa error voluptatum ut earum id?
-            </div>
-            <div class="column is-two-thirds" >
-                <p>We help navigate the complex challenge of creating an innovative product. We move fluidly from high-level business problems to tactile execution. If you’re looking for strategy, design, development, building a product, research, product management, discussing ideas, talking to a friend or just having a cup of coffee you should say “hi!” to us.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
+        </section>
     </div>
 
     <footer class="footer">
@@ -219,5 +286,6 @@
     <script src="https://bulma.io/vendor/clipboard-1.7.1.min.js"></script>
     <script src="https://bulma.io/vendor/js.cookie-2.1.4.min.js"></script>
     <script src="https://bulma.io/lib/main.js?v=201807250738"></script>
+    
   </body>
 </html>

@@ -2,30 +2,44 @@
 layout: default
 ---
   
-  <section class="section">
-    <article class="howto">
-      <div class="container">
-        <h2 class="has-text-centered title has-text-weight-semibold">{{ page.title }}</h2>
-      </div>
-      
-      <div class="container main-teaser-content">
-          
-        {{ content }}
 
-        <div class="content-metadata">
-          <span></span>
-          <span class="field-name">Published: {{ page.date | date: '%B %-d, %Y' }}</span><br>
-          <span class="field-name">Length: {% include read-time.html %} </span><br>
-          <span class="authors-container">
-            Author : <a href="https://twitter.com/{{site.author.handle}}">{{site.author.name}}</a>
-          </span>
-        </div>
+<div class="container">
+    <!-- START ARTICLE FEED -->
+    <section class="articles">
+        <div class="column is-mobile is-10 is-offset-1">
+            <!-- START ARTICLE -->
+            <div class=" article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <p class="title article-title">{{ page.title }}</p>
+                            <div class="tags has-addons level-item">
+                                <span class="tag is-rounded is-info">{{site.author.name}}</span>
+                                <span class="tag is-rounded">{{ page.date | date: '%B %-d, %Y' }}</span>
+                            </div><br>
+                        </div>
+                    </div>
+                    <div class="content article-body">
+                      <article>
+                        {{ content }}
 
-        <div class="is-center"> {% include post_pagination.html %} </div>
+                      <div class="is-center"> {% include post_pagination.html %} </div>
+                      </article>
 
-
-      </div>
-
-      <div class="container"></div>
-    </article>
-  </section>
+                      <div class="content-metadata">
+                          <span></span>
+                          <span class="field-name">Published: {{ page.date | date: '%B %-d, %Y' }}</span><br>
+                          <span class="field-name">Length: {% include read-time.html %} </span><br>
+                          <span class="authors-container">
+                            Author : <a href="https://twitter.com/{{site.author.handle}}">{{site.author.name}}</a>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END ARTICLE -->
+            
+           
+    </section>
+    <!-- END ARTICLE FEED -->
+</div>
