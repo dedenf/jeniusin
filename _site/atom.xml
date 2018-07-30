@@ -4,7 +4,7 @@
  <title>Cashless with Jenius</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-30T18:27:10+07:00</updated>
+ <updated>2018-07-30T21:09:12+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Jenius</name>
@@ -12,6 +12,69 @@
    <twitter>jeniusconnect</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Traveloka</title>
+   <link href="http://localhost:4000/traveloka"/>
+   <updated>2018-07-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/traveloka</id>
+   <content type="html">&lt;h2 id=&quot;traveloka&quot;&gt;Traveloka&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Tokopedia</title>
+   <link href="http://localhost:4000/tokopedia"/>
+   <updated>2018-07-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/tokopedia</id>
+   <content type="html">&lt;h2 id=&quot;tokopedia&quot;&gt;Tokopedia&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Shopee</title>
+   <link href="http://localhost:4000/shopee"/>
+   <updated>2018-07-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/shopee</id>
+   <content type="html">&lt;h2 id=&quot;shopee&quot;&gt;Shopee&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lazada</title>
+   <link href="http://localhost:4000/lazada"/>
+   <updated>2018-07-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/lazada</id>
+   <content type="html">&lt;h2 id=&quot;lazada&quot;&gt;Lazada&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>JD</title>
+   <link href="http://localhost:4000/jd.id"/>
+   <updated>2018-07-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/jd.id</id>
+   <content type="html">&lt;h2 id=&quot;jdid&quot;&gt;JD.id&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bukalapak</title>
+   <link href="http://localhost:4000/bukalapak"/>
+   <updated>2018-07-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/bukalapak</id>
+   <content type="html">&lt;h2 id=&quot;bukalapak&quot;&gt;bukalapak&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Blibli</title>
+   <link href="http://localhost:4000/blibli"/>
+   <updated>2018-07-30T00:00:00+07:00</updated>
+   <id>http://localhost:4000/blibli</id>
+   <content type="html">&lt;h2 id=&quot;bliblicom&quot;&gt;blibli.com&lt;/h2&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Viu</title>
