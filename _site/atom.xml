@@ -4,7 +4,7 @@
  <title>Cashless with Jenius</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-31T14:09:51+07:00</updated>
+ <updated>2018-07-31T17:10:58+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Jenius</name>
@@ -81,7 +81,7 @@
    <link href="http://localhost:4000/viu"/>
    <updated>2018-07-27T00:00:00+07:00</updated>
    <id>http://localhost:4000/viu</id>
-   <content type="html">&lt;h2 id=&quot;viu&quot;&gt;Viu&lt;/h2&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/viu/front.jpg&quot; alt=&quot;Viu Front&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
