@@ -26,15 +26,45 @@ layout: default
                         </div>
                     </div>
                     <div class="content article-body">
-                        <article class="howto">
-                            <ol>
                             {% for post in site.categories[page.category] %}
-                            <li><a href="{{ post.url | absolute_url }}">
-                              {{ post.title }}
-                            </a></li>
+                                <!-- start music -->
+                                <section class="hero is-default is-bold">
+                                    <article class="howto {{ post.title }}">
+                                        <div class="hero-body">
+                                            <div class="card container ">
+                                                <div class="columns is-vcentered">
+                                                    <div class="column is-5">
+                                                        <figure class="image is-4by3">
+                                                                <img src="{{ post.image.teaser }}">
+                                                        </figure>
+                                                    </div>
+
+                                                    <div class="column is-4">
+                                                        <h1 class="title is-4">
+                                                            <a href="{{ post.url | absolute_url }}">
+                                                                {{ post.title }}
+                                                            </a>
+                                                        </h1>
+                                                        <h2 class="subtitle is-6">
+                                                            {{ post.description }}
+                                                        </h2>
+                                                        <br>
+                                                        <p>
+                                                            <a class="button is-medium is-info is-outlined" href="{{ post.url | absolute_url }}">
+                                                                Learn more
+                                                            </a>
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+                                <!-- end music -->
+
+                                
                             {% endfor %}
-                          </ol>
-                      </article>
 
                     </div>
                 </div>
