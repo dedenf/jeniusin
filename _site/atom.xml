@@ -4,7 +4,7 @@
  <title>Cashless with Jenius</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-30T21:09:12+07:00</updated>
+ <updated>2018-07-31T14:09:51+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Jenius</name>
@@ -146,7 +146,37 @@
    <link href="http://localhost:4000/netflix"/>
    <updated>2018-07-27T00:00:00+07:00</updated>
    <id>http://localhost:4000/netflix</id>
-   <content type="html">&lt;h2 id=&quot;netflix&quot;&gt;Netflix&lt;/h2&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/netflix/front.jpeg&quot; alt=&quot;registrasi&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Netflix adalah salah satu penyedia service untuk streaming film, serial yang sangat digemari, mempunya koleksi film yang banyak menjadikan salah satu pemikat untuk menggunakan Netflix, dan tentu saja tidak gratis, untuk pembayaran (biaya langganan netflix ditarik bulanan) Netflix menyediakan opsi pembayaran melalui visa, mastercard, amex atau paypal, dan jenius mendukung Visa dan &lt;a href=&quot;/paypal&quot;&gt;Paypal&lt;/a&gt;, jadi bisa Jeniusin Netflix!.&lt;/p&gt;
+
+&lt;p&gt;Untuk memiliki akun di Netflix juga mudah, silakan ikuti langkah mudah di bawah dan juga cara menggunakan Jenius sebagai alat pembayaran langganan Netflix anda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/netflix/front2.jpeg&quot; alt=&quot;registrasi&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Registrasi akun netflix (silakan langsung login jika sudah memiliki akun), di langkah ini, seperti biasa, masukkan email dan password yang ada pilih.
+&lt;img src=&quot;/images/posts/netflix/reg1.jpeg&quot; alt=&quot;registrasi&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pilih payment, pilih Visa (opsi pertama), jika anda sudah menghubungkan Jenius dengan &lt;a href=&quot;/paypal&quot;&gt;Paypal&lt;/a&gt;, bisa memilih Paypal sebagai media pembayaran.
+&lt;img src=&quot;/images/posts/netflix/reg2.jpeg&quot; alt=&quot;registrasi&quot; /&gt;
+&lt;em&gt;Setup kartu debit Jenius&lt;/em&gt;
+&lt;img src=&quot;/images/posts/netflix/reg3.jpeg&quot; alt=&quot;registrasi&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Setelah memasukan informasi kartu Jenius, bisa dicek lagi detail-nya, dan juga direkomendasikan untuk memasukan nomor telepon sebagai alat untuk &lt;em&gt;recoveery&lt;/em&gt; jika diperlukan.
+&lt;img src=&quot;/images/posts/netflix/reg4.jpeg&quot; alt=&quot;registrasi&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Akun Netflix anda sudah sukses dibuat.
+&lt;img src=&quot;/images/posts/netflix/dashboard.jpeg&quot; alt=&quot;netflix dashboard&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Untuk melihat detil informasi akun dan informasi pembayaran, paket Neetflix bisa dilihat di menu &lt;em&gt;Account&lt;/em&gt;
+&lt;img src=&quot;/images/posts/netflix/account.jpeg&quot; alt=&quot;user account&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
