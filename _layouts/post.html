@@ -12,28 +12,51 @@ layout: default
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content has-text-centered">
-                            <p class="title article-title">{{ page.title }}</p>
+                            <h2 class="title article-title">{{ page.title }}</h2>
                             <div class="tags has-addons level-item">
                                 <span class="tag is-rounded is-info">{{site.author.name}}</span>
                                 <span class="tag is-rounded">{{ page.date | date: '%B %-d, %Y' }}</span>
-                            </div><br>
+                            </div>
+                            
+
+                            <br>
                         </div>
                     </div>
                     <div class="content article-body">
                       <article>
+                       
                         {{ content }}
+
+                        <br>
+                        <div class="content-metadata">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-128x128">
+                                                <img src="https://picsum.photos/128/128?image=1080" alt="Deden Fathurahman" itemprop="image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <span class="field-name">Published : {{ page.date | date: '%B %-d, %Y' }}</span><br>
+                                            <span class="field-name">Length : {% include read-time.html %} </span><br>
+                                            <span class="authors-container">
+                                                Author : <a href="https://twitter.com/{{site.author.handle}}">{{site.author.name}}</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </dv>
+                            
+                        </div>
+                        
+                        <br>
 
                       <div class="is-center"> {% include post_pagination.html %} </div>
                       </article>
 
-                      <div class="content-metadata">
-                          <span></span>
-                          <span class="field-name">Published: {{ page.date | date: '%B %-d, %Y' }}</span><br>
-                          <span class="field-name">Length: {% include read-time.html %} </span><br>
-                          <span class="authors-container">
-                            Author : <a href="https://twitter.com/{{site.author.handle}}">{{site.author.name}}</a>
-                          </span>
-                        </div>
+                      
                     </div>
                 </div>
             </div>
