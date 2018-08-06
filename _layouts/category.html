@@ -22,7 +22,7 @@ layout: default
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content has-text-centered">
-                            <h2 class="has-text-centered title">{{ page.title }}</h2>
+                            <h2 class="has-text-centered title is-4 heading-serif">{{ page.title }}</h2>
                         </div>
                     </div>
                     <div class="content article-body">
@@ -39,15 +39,15 @@ layout: default
                                                         </figure>
                                                     </div>
 
-                                                    <div class="column is-4">
+                                                    <div class="column is-5">
                                                         <h1 class="title is-4">
                                                             <a href="{{ post.url | absolute_url }}">
                                                                 {{ post.title }}
                                                             </a>
                                                         </h1>
-                                                        <h2 class="subtitle is-6">
-                                                            {{ post.description }}
-                                                        </h2>
+                                                        <div class="content">
+                                                            <p> {{ post.description }}</p>
+                                                        </div>
                                                         <br>
                                                         <p>
                                                             <a class="button is-medium is-info is-outlined" href="{{ post.url | absolute_url }}">

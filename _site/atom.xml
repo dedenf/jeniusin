@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Cashless with Jenius</title>
+ <title>Jeniusin dengan Jenius</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-31T17:10:58+07:00</updated>
+ <updated>2018-08-06T16:00:10+07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Jenius</name>
@@ -12,6 +12,78 @@
    <twitter>jeniusconnect</twitter>
  </author>
 
+ 
+ <entry>
+   <title>Tiket</title>
+   <link href="http://localhost:4000/tiket"/>
+   <updated>2018-08-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/tiket</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mister Aladin</title>
+   <link href="http://localhost:4000/mister-aladin"/>
+   <updated>2018-08-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/mister-aladin</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>iFlix</title>
+   <link href="http://localhost:4000/iflix"/>
+   <updated>2018-08-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/iflix</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Expedia</title>
+   <link href="http://localhost:4000/expedia"/>
+   <updated>2018-08-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/expedia</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Booking.com</title>
+   <link href="http://localhost:4000/booking"/>
+   <updated>2018-08-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/booking</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Airbnb</title>
+   <link href="http://localhost:4000/airbnb"/>
+   <updated>2018-08-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/airbnb</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Airasia</title>
+   <link href="http://localhost:4000/airasia"/>
+   <updated>2018-08-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/airasia</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Agoda</title>
+   <link href="http://localhost:4000/agoda"/>
+   <updated>2018-08-06T00:00:00+07:00</updated>
+   <id>http://localhost:4000/agoda</id>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Traveloka</title>
@@ -27,7 +99,10 @@
    <link href="http://localhost:4000/tokopedia"/>
    <updated>2018-07-30T00:00:00+07:00</updated>
    <id>http://localhost:4000/tokopedia</id>
-   <content type="html">&lt;h2 id=&quot;tokopedia&quot;&gt;Tokopedia&lt;/h2&gt;
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sequi a, velit sit numquam ab eaque nisi illum eius vel rerum aliquam, repudiandae aspernatur ducimus odit vero nesciunt. Fugiat, aliquid?&lt;/p&gt;
 </content>
  </entry>
  

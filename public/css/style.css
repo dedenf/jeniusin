@@ -2,6 +2,17 @@ h2.work-title {
     text-align: center
 }
 
+.heading-serif {
+    font-family: 'PT Serif', serif;
+}
+h1.title, h2.title, h3.title {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal; 
+}
 @media screen and (min-width: 769px){
     .main-teaser-content {
         /* width: 500px;  */
@@ -26,3 +37,10 @@ h2.work-title {
     width: 70%; 
     /* this need to be fix! */
 }
+.photo-credit{font-style:italic;margin-bottom:10px;}
+.author__avatar{display:table-cell;vertical-align:top;width:36px;height:36px;margin-left:0;margin-right:0;text-align:center}
+.author__avatar img{max-width:110px;border-radius:50%}
+@media (min-width:64em){
+        .author__avatar{display:block;height:auto}
+        .author__avatar img{padding:5px;border:1px solid #f2f3f3}
+    }
